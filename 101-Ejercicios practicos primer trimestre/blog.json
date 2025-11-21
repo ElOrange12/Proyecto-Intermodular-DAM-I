@@ -1,0 +1,26 @@
+[
+	{
+		"titulo":"Primer artículo",
+		"fecha":"16-10-2025",
+		"autor":"Daniel Oliveira Vidal",
+		"contenido":"Este es el contenido del primer artículo"
+	},
+	{
+		"titulo":"Segundo artículo",
+		"fecha":"17-10-2025",
+		"autor":"Daniel Oliveira Vidal",
+		"contenido":"Este es el contenido del segundo artículo"
+	},
+	{
+		"titulo":"Tercer artículo",
+		"fecha":"18-10-2025",
+		"autor":"Daniel Oliveira Vidal",
+		"contenido":"Este es el contenido del tercer artículo"
+	},
+	{
+		"titulo":"Cuarto artículo",
+		"fecha":"19-10-2025",
+		"autor":"Daniel Oliveira Vidal",
+		"contenido":"Este es el contenido del cuarto artículo"
+	}
+]

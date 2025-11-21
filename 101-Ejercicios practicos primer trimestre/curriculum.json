@@ -1,0 +1,12 @@
+{
+	"datos personales":{
+		"nombre":"Daniel",
+		"apellidos":"Oliveira Vidal",
+		"email":"info@elorange12.com",
+		"telefono":"924938275",
+		"direccion":"La calle de Daniel",
+		"codigo_postal":"46000 Valencia"
+	},
+	"experiencia":"",
+	"formación":""
+}

@@ -16,12 +16,38 @@
 		<header>Aplicación empresarial superchula de Daniel</header>
 		<main>
 			<nav>
-				<a>Clientes</a>
-				<a>Productos</a>
-				<a>Pedidos</a>
+				{% for tabla in mis_tablas: %}
+					<a>{{tabla}}</a>
+				{% endfor %}
 			</nav>
-			<section>Contenido
-			
+			<style>
+				table{width:100%; border-collapse:collapse;border:2px solid orange;margin-top:20px;}
+				table th, table td{padding:10px; text-align:center;}
+				table thead{background:orange; color:black;}
+		        th{background:orange;color:black;padding:12px;text-align:left;border:1px solid #ddd;}
+		        td{padding:10px;border:1px solid #ddd;}
+		        tr:nth-child(even){background:Cornsilk;}
+		        tr:hover{background:orange;}
+			</style>
+			<section>
+				<table>
+					<thead>
+						<tr>
+							{% for columnas in mis_columnas: %}
+								<th>{{columnas}}</th>
+							{% endfor %}
+						</tr>
+					</thead>
+					<tbody>
+						{% for fila in mi_contenido_tabla: %}
+							<tr>
+								{% for dato in fila: %}
+									<td>{{dato}}</td>
+								{% endfor %}
+							</tr>
+						{% endfor %}					
+					</tbody>
+				</table>
 			</section>
 		</main>
 	</body>

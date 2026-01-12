@@ -31,7 +31,7 @@ for fila in filas:				# Recorro el resultado
 	columnas.append(fila[0])	# Lo añado a la lista de tablas
 
 
-######################### MySQL #########################
+######################### Flask #########################
 
 app = Flask(__name__)
 

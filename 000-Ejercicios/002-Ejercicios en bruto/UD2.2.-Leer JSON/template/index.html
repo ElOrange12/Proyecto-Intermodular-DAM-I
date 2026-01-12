@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Cubos de Rubik</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <h1>--nombre--</h1>
+        <h2>--forma--</h2>
+        <h3>--caras--</h3>
+        <script>
+            fetch('static/informacion.json')
+            .then(function(respuesta){
+                return respuesta.json();    
+            })
+            .then(function(datos){
+                console.log(datos);         
+                document.querySelector("h1").textContent = datos.nombre
+                document.querySelector("h2").textContent = datos.forma
+                document.querySelector("h3").textContent = datos.caras
+            })
+        </script>
+    </body>
+</html>

@@ -12,7 +12,7 @@
 
 			$host = "localhost";
 			$user = "blogphp";
-			$pass = "Blogphp123$";
+			$pass = "Blog123$";
 			$db   = "blogphp";
 
 			$conexion = new mysqli($host, $user, $pass, $db);
